@@ -11,5 +11,13 @@ body{
 	transform: translateX(-50%) translateY(-50%);
 }
 
-
- 
+.day{
+	
+	color : #17D4ef;
+	font-size: 23px;
+	letter-spacing: 3px;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	transform: translateX(-50%) translateY(-50%);
+}
