@@ -3,9 +3,9 @@ function showTime() {
     let hours = date.getHours();
     let minit = date.getMinutes();
     let second = date.getSeconds();
-    let day = date.getDate();
-    let month = date.getMonth();
-    let year = date.getFullYear();
+
+    
+
 
     
 
@@ -25,11 +25,11 @@ function showTime() {
     
 
     let time = hours + ':' + minit + ':' + second + ' ' + session; 
-    let result = day + ' / ' + month + ' / ' + year; 
+    
     
 
     document.querySelector('#myTime').innerText = time;
-    document.querySelector('#myDay').innerText = result;
+    
 
     setTimeout(showTime, 1000);
 
